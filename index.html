@@ -1,0 +1,103 @@
+<!DOCTYP html>
+    <html lang="pt-br">
+
+    <head>
+        <title> Página de cadastro </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+
+
+    </head>
+
+    <body>
+        <h1> Cadastro de usuário </h1>
+        <p>Seja bem-vindo(a)! <br> Preencha os campos abaixo para realizar seu cadastro: </p>
+        <br>
+        <form onsubmit="return enviaForm();"autocomplete="off" >
+            <fieldset>
+                <h2> Dados pessoais </h2>
+
+                <label> Nome: </label>
+                <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome" required>
+<br>
+               
+                <label> CPF: </label>
+                <input type="text" name="CPF" id="CPF" placeholder="Digite seu CPF" required>
+<br>
+                
+                <label> RG: </label>
+                <input type="text" name="RG" id="RG" placeholder="Digite seu RG">
+<br>
+               
+                <label> Sexo: </label>
+                <select>
+                    <option> </option>
+                    <option> Feminino </optionn>
+                    <option> Masculino </option>
+                    <option> Outro </option>
+                </select>
+<br>
+
+                <h2> Endereço </h2>
+
+                <label> CEP: </label>
+                <input type="text" name="CEP" id="cep" placeholder="CEP" required>
+<br>
+                
+                <label> Rua: </label>
+                <input type="text" name="Rua" id="rua" placeholder="Rua" required>
+<br>
+               
+                <label> Número: </label>
+                <input type="text" name="Número" id="numero" placeholder="Número" required>
+<br>
+                
+                <label> Complemento: </label>
+                <input type="text" name="Complemento" id="complemento" placeholder="Complemento">
+<br>:
+                
+                <label> Bairro: </label>
+                <input type=text" name="Bairro" id="bairro" placeholder="Bairro" required>
+<br>
+               
+                <label> Cidade: </label>
+                <input type="text" name="Cidade" id="cidade" placeholder="Cidade" required>
+<br>
+                
+                <label> Estado: </label>
+                <input type="text" name="Estado" id="estado" placeholder="Estado" required>
+<br>
+                
+                <h2> Contatos </h2>
+                <label> Celular: </label>
+                <input type="text" name="Celular" id="celular" placeholder="Celular" required>
+<br>
+                
+                <label> Telefone: </label>
+                <input type="text" name="Telefone" id="telefone" placeholder="Telefone" required>
+<br>
+                
+                <label> E-mail: </label>
+                <input type="email" name="E-mail" id="email" placeholder="E-mail">
+
+
+                <input type="submit" name="enviar" id="enviar">
+            </fieldset>
+        </form>
+        <footer>
+            <p> Desenvolvido por Samara Ferreira
+                <br>
+                &copy; Todos os direitos reservados
+            </p>
+        </footer>
+
+        <script type="text/javascript" src="js/alerta.js"></script>
+        <script type="text/javascript" src="js/mascara.js"></script>
+        <script type="text/javascript" src="js/valida cep.js"></script>
+        <script type="text/javascript" src="js/valida cpf.js"></script>
+
+    </body>
+
+    </html>
