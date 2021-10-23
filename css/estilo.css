@@ -71,3 +71,9 @@ footer{
     margin: 10px;
  background-color: #2da72d;   
 }
+
+
+
+fieldset {
+      border: none;
+}
